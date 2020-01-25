@@ -25,12 +25,19 @@ export default () => {
   return (
     <div>
       <p>Current count is {count}</p>
-      <button onClick={() => dispatch({ type: "increment" })}>Count Up</button>
-      <button onClick={() => dispatch({ type: "decrement" })}>
+      <button data-testid="up" onClick={() => dispatch({ type: "increment" })}>
+        Count Up
+      </button>
+      <button
+        data-testid="down"
+        onClick={() => dispatch({ type: "decrement" })}
+      >
         Count Down
       </button>
       <br />
-      <button onClick={() => dispatch({ type: "reset" })}>Reset Count</button>
+      <button data-testid="reset" onClick={() => dispatch({ type: "reset" })}>
+        Reset Count
+      </button>
     </div>
   );
 };
