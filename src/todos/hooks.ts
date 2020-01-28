@@ -29,7 +29,7 @@ export interface Dispatchers {
   removeAll(): void;
 }
 
-const reducer = (state: State, action: Action): State => {
+export const reducer = (state: State, action: Action): State => {
   switch (action.type) {
     case types.ADD:
       return [
