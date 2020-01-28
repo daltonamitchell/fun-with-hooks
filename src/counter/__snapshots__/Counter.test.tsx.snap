@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter/> counts down 1`] = `
+"<div>
+  <p>
+    Current count is 
+    -1
+  </p>
+  <button data-testid=\\"up\\" onClick={[Function: onClick]}>
+    Count Up
+  </button>
+  <button data-testid=\\"down\\" onClick={[Function: onClick]}>
+    Count Down
+  </button>
+  <br />
+  <button data-testid=\\"reset\\" onClick={[Function: onClick]}>
+    Reset Count
+  </button>
+</div>"
+`;
+
+exports[`<Counter/> counts up 1`] = `
+"<div>
+  <p>
+    Current count is 
+    1
+  </p>
+  <button data-testid=\\"up\\" onClick={[Function: onClick]}>
+    Count Up
+  </button>
+  <button data-testid=\\"down\\" onClick={[Function: onClick]}>
+    Count Down
+  </button>
+  <br />
+  <button data-testid=\\"reset\\" onClick={[Function: onClick]}>
+    Reset Count
+  </button>
+</div>"
+`;
+
+exports[`<Counter/> displays the initial count 1`] = `
+"<div>
+  <p>
+    Current count is 
+    0
+  </p>
+  <button data-testid=\\"up\\" onClick={[Function: onClick]}>
+    Count Up
+  </button>
+  <button data-testid=\\"down\\" onClick={[Function: onClick]}>
+    Count Down
+  </button>
+  <br />
+  <button data-testid=\\"reset\\" onClick={[Function: onClick]}>
+    Reset Count
+  </button>
+</div>"
+`;
+
+exports[`<Counter/> renders without crashing 1`] = `
+"<div>
+  <p>
+    Current count is 
+    0
+  </p>
+  <button data-testid=\\"up\\" onClick={[Function: onClick]}>
+    Count Up
+  </button>
+  <button data-testid=\\"down\\" onClick={[Function: onClick]}>
+    Count Down
+  </button>
+  <br />
+  <button data-testid=\\"reset\\" onClick={[Function: onClick]}>
+    Reset Count
+  </button>
+</div>"
+`;
+
+exports[`<Counter/> resets count 1`] = `
+"<div>
+  <p>
+    Current count is 
+    2
+  </p>
+  <button data-testid=\\"up\\" onClick={[Function: onClick]}>
+    Count Up
+  </button>
+  <button data-testid=\\"down\\" onClick={[Function: onClick]}>
+    Count Down
+  </button>
+  <br />
+  <button data-testid=\\"reset\\" onClick={[Function: onClick]}>
+    Reset Count
+  </button>
+</div>"
+`;
+
+exports[`<Counter/> resets count 2`] = `
+"<div>
+  <p>
+    Current count is 
+    0
+  </p>
+  <button data-testid=\\"up\\" onClick={[Function: onClick]}>
+    Count Up
+  </button>
+  <button data-testid=\\"down\\" onClick={[Function: onClick]}>
+    Count Down
+  </button>
+  <br />
+  <button data-testid=\\"reset\\" onClick={[Function: onClick]}>
+    Reset Count
+  </button>
+</div>"
+`;
